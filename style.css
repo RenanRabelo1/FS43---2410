@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+@media (min-width:400px) and (max-width:800px){
+    #header{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+        
+    }
+    #hello {
+        margin-left: 5vw;
+    }
+    #hello p {
+        color: rgb(75, 75, 75);
+    }
+    #circle {
+        width: 9vw;
+        height: 7vh;
+        background-color: black;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5vw;
+    }
+    #circle p {
+        font-weight: bold;
+    }
+    #titles {
+        width: 100vw;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    #titles h1 {
+        font-size: 24px;
+    }
+    #search-bar {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+    }
+    #search-bar input{
+        width: 80%;
+        height: 7vh;
+        border-radius: 10px;
+        border: 2px solid rgb(232, 229, 229);
+        outline: none;
+        padding-left: 6vw;
+        font-weight: 500;
+        font-size: 14px;
+        
+    }
+     #search-bar input::placeholder {
+        color: rgb(158, 155, 155);
+     }
+
+    body {
+        background-color: #F4F5F8;
+     }
+    #search-bar i {
+        z-index: 99;
+        margin-right: -5.5vw;
+        font-size: 15px;
+        color: rgb(158, 155, 155);
+    }
+    #pills {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #pills h1 {
+        font-size: 16px;
+    }
+    #pills div {
+        width: 20vw;
+        height: 7vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+    }
+    #todes {
+        background-color: #0064E0 !important;
+        color: white;
+    }
+    .card {
+        width: 90%;
+        background-color: white;
+        border-radius: 10px;
+        height: 9vh;
+        margin-bottom: 3vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #courses {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+    #courses h1 {
+        font-size: 18px;
+    }
+    .information  {
+        display: flex;
+        gap: 15vw;
+        width: 80vw;
+    }
+    .information-icon {
+        width: 12vw;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   .blue {
+        background-color: #E6ECFF;
+        color: #2740BD;
+        margin-left: 2vw;
+    }
+
+    .orange {
+        background-color: #FFEADD;
+        color: #8B4418;
+        margin-left: 2vw;
+    }
+
+    .green {
+        background-color: #E0F3EA;
+        color: #196645;
+        margin-left: 2vw;
+    }
+
+    .yellow {
+        background-color: #FFF3CC;
+        color: #7C6210;
+        margin-left: 2vw;
+    }
+    .information-description h3{
+        font-size: 14px;
+    }
+    .information-description p {
+        font-size: 10px;
+        margin-top: 1vh;
+        color: lightgray;
+        
+    }
+}
